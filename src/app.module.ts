@@ -14,7 +14,7 @@ import { PrescriptionDrugsModule } from './PrescriptionDrugs/PrescriptionDrugs.m
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://mohand800001:u7RRxaBSjh1bDjaG@cluster0.5gesuqe.mongodb.net/crud'),
+    MongooseModule.forRoot(''),
     BillModule,
     CustomerModule,
     DisposalModule,
